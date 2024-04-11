@@ -23,69 +23,65 @@
             <div class="navbar-vertical-content scrollbar">
               <ul class="navbar-nav flex-column mb-3" id="navbarVerticalNav">
                 <li class="nav-item">
-                  <!-- parent pages-->
-                  <a class="nav-link" href="#" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dashboard">
+                  <router-link
+                      class="nav-link"
+                      :class="{'active' : (this.$route.name === 'AccountPage' || this.$route.path === '/account')}"
+                      :to="{ path: '/account'}"
+                      data-bs-toggle=""
+                      aria-expanded="false"
+                  >
                     <div class="d-flex align-items-center">
                       <span class="nav-link-icon">
                         <span class="fas fa-user"></span>
                       </span>
                       <span class="nav-link-text ps-1">Account</span>
                     </div>
-                  </a>
+                  </router-link>
                 </li>
+
                 <li class="nav-item">
                   <!-- parent pages-->
-                  <a class="nav-link" href="#" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dashboard">
-                    <div class="d-flex align-items-center">
+                  <router-link
+                    class="nav-link"
+                    :class="{'active' : (this.$route.name === 'Chat' || this.$route.path === '/chat')}"
+                    :to="{ path: '/chat'}"
+                    data-bs-toggle=""
+                    aria-expanded="false"
+                >
+                  <div class="d-flex align-items-center">
                       <span class="nav-link-icon">
                         <span class="fas fa-comments"></span>
                       </span>
-                      <span class="nav-link-text ps-1">Chat</span>
-                    </div>
-                  </a>
+                    <span class="nav-link-text ps-1">Chat</span>
+                  </div>
+                </router-link>
                 </li>
                 <li class="nav-item">
                   <!-- parent pages-->
-                  <a class="nav-link" href="#" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dashboard">
+                  <router-link
+                      class="nav-link"
+                      :class="{'active' : (this.$route.name === 'Calendar' || this.$route.path === '/calendar')}"
+                      :to="{ path: '/calendar'}"
+                      data-bs-toggle=""
+                      aria-expanded="false"
+                  >
                     <div class="d-flex align-items-center">
                       <span class="nav-link-icon">
                         <span class="fas fa-calendar"></span>
                       </span>
                       <span class="nav-link-text ps-1">Calendar</span>
                     </div>
-                  </a>
+                  </router-link>
                 </li>
                 <li class="nav-item">
                   <!-- parent pages-->
-                  <a class="nav-link" href="#" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dashboard">
-                    <div class="d-flex align-items-center">
-                      <span class="nav-link-icon">
-                        <span class="fas fa-info"></span>
-                      </span>
-                      <span class="nav-link-text ps-1">Info</span>
-                    </div>
-                  </a>
                 </li>
-<!--                <ul class="nav collapse show" id="dashboard">-->
-<!--                  <li class="nav-item">-->
-<!--                  </li>-->
-<!--                  <li class="nav-item">-->
-<!--                  </li>-->
-<!--                  <li class="nav-item ">-->
-<!--                    <a class="nav-link cursor-default" href="#" data-bs-toggle="" aria-expanded="false">-->
-<!--                      <div class="d-flex align-items-center">-->
-<!--                        <span class="nav-link-text ps-1 text-400">Settings</span>-->
-<!--                      </div>-->
-<!--                    </a>-->
-<!--                  </li>-->
-<!--                </ul>-->
               </ul>
             </div>
           </div>
         </nav>
 
         <div class="content">
-          <!--Horispntal Header-->
           <nav class="navbar navbar-light navbar-glass navbar-top navbar-expand" style="z-index: 1;">
 
             <button style="z-index: 1;" class="btn navbar-toggler-humburger-icon navbar-toggler me-1 me-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
@@ -120,7 +116,8 @@
               </li>
             </ul>
           </nav>
-          <AccountPage msg="Welcome to Your Vue.js App"/>
+
+          <router-view></router-view>
         </div>
       </div>
     </main>
@@ -128,12 +125,10 @@
 </template>
 
 <script>
-import AccountPage from './components/AccountPage.vue'
 
 export default {
   name: 'App',
   components: {
-    AccountPage
   }
 }
 </script>
