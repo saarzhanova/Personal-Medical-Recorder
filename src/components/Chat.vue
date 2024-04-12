@@ -93,12 +93,9 @@
         </div>
 
         <div class="w-100 mb-3 ms-4">
-          <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">eat</span>
-          <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">sleep</span>
-          <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">walk</span>
-          <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">walk</span>
-          <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">talk</span>
-          <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">study</span>
+          <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">recently</span>
+          <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">few months ago</span>
+          <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">several years ago</span>
         </div>
 
         <form class="chat-editor-area">

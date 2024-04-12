@@ -5,9 +5,9 @@
   <div class="row ps-4 me-4 mb-3">
     <span class="fw-bold ps-4">My Medical Card</span>
   </div>
-  <i class="fa fa-plus-circle fa-lg mb-3 mt-2" aria-hidden="true"></i>
+  <i class="fa fa-plus-circle fa-lg mb-3 mt-2 cursor-pointer" aria-hidden="true" @click="this.addNewCard()"></i>
   <i class="fa fa-trash fa-lg ms-4 mb-3 mt-2" aria-hidden="true"></i>
-  <div class="card">
+  <div class="card"  v-for="(card, index) in medicalCards" :key="index">
       <div class="card-body">
         <div class="row ps-4 me-4">
           <div class="col-6">
@@ -18,14 +18,14 @@
                 data-bs-toggle=""
                 aria-expanded="false"
             >
-              <h4 class="fw-bold">Asthma</h4>
+              <h4 class="fw-bold">{{ card.name }}</h4>
             </router-link>
           </div>
           <div class="col-6 d-flex flex-row-reverse">
             <button type="button" class="btn btn-primary">Change</button>
           </div>
         </div>
-        <p class="text-500 fs--1 ps-4"><span>11/11/1999</span>-<span>11/11/2024</span></p>
+        <p class="text-500 fs--1 ps-4">{{ card.date}}</p>
         <p class="p-0 m-0 ps-4">Disturbance Frequency
           <span class="dot bg-primary ms-3"></span>
           <span class="dot bg-info"></span>
@@ -52,7 +52,42 @@
 
 <script>
 export default {
-  name: "MedicalCard"
+  name: "MedicalCard",
+  data() {
+    return {
+      medicalCards: [
+        {
+          name: "Asthma",
+          date: "11/11/1999 - 11/11/2024",
+        }
+      ], // Array to store medical cards
+      // Sample data for initial rendering
+      // You can load this data from JSON file or API in mounted hook
+      // and update medicalCards array accordingly
+      sampleData: [
+        {
+          name: "Asthma",
+          date: "11/11/1999 - 11/11/2024",
+        }
+      ]
+    };
+  },
+  mounted() {
+    // this.medicalCards = this.sampleData;
+  },
+  methods: {
+    addNewCard() {
+      const newCard = {
+        index: 2,
+        name: "New Condition",
+        date: "MM/DD/YYYY - MM/DD/YYYY",
+      };
+
+      this.medicalCards.push(newCard);
+      console.log(this.medicalCards)
+
+    }
+  }
 }
 </script>
 
