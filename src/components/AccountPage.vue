@@ -23,7 +23,7 @@
             <span data-bs-toggle="tooltip" data-bs-placement="right" title="" data-bs-original-title="Verified" aria-label="Verified">
               <i class="fa fa-mars" aria-hidden="true"></i>
             </span>
-            Anthony Hopkins
+            Mark Hopkins
           </h4>
         </div>
         <div class="row mb-3">
@@ -36,7 +36,7 @@
           <div class="col-6 text-center justify-content-center">
             <span>Email</span></div>
           <div class="card col-6 text-center justify-content-center">
-            <span>anthony@mail.com</span></div>
+            <span>mark@mail.com</span></div>
         </div>
         <div class="row">
           <div class="col-6 text-center justify-content-center">
