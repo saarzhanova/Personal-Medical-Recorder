@@ -11,7 +11,7 @@
   </div>
   <div class="text-center me-4" >
     <div class="card-header text-center mt-5">
-      <h1>Diarrhea</h1>
+      <h1>Asthma</h1>
       <h4 class="text-500 fs--1 mt-3"><span>11/11/1999</span>-<span>11/11/2024</span></h4>
     </div>
     <div class="card-body">
@@ -34,31 +34,28 @@
 
 
       <div class="border-dashed-bottom my-3 d-lg-none ms-3"></div>
-      <p class="mb-0 pb-0">Contre-indications</p>
+      <p class="mb-0 pb-0">Contreindications</p>
       <div class="w-100" style="width: 200px;">
-        <span class="badge badge-soft-danger rounded-pill fs--2 me-2 mt-2">eat</span>
-        <span class="badge badge-soft-danger rounded-pill fs--2 me-2 mt-2">sleep</span>
-        <span class="badge badge-soft-danger rounded-pill fs--2 me-2 mt-2">walk</span>
-        <span class="badge badge-soft-danger rounded-pill fs--2 me-2 mt-2">talk</span>
-        <span class="badge badge-soft-danger rounded-pill fs--2 me-2 mt-2">study</span>
+        <span class="badge badge-soft-danger rounded-pill fs--2 me-2 mt-2">smoking</span>
+        <span class="badge badge-soft-danger rounded-pill fs--2 me-2 mt-2">allergens</span>
+        <span class="badge badge-soft-danger rounded-pill fs--2 me-2 mt-2">medications</span>
+        <span class="badge badge-soft-danger rounded-pill fs--2 me-2 mt-2">extreme temperature</span>
       </div>
       <div class="border-dashed-bottom my-3 d-lg-none ms-3"></div>
       <p class="mb-0 pb-0">Requirements</p>
       <div class="w-100" style="width: 200px;">
-        <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">eat</span>
-        <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">sleep</span>
-        <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">walk</span>
-        <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">talk</span>
-        <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">study</span>
+        <span class="badge badge-soft-success rounded-pill fs--2 me-2 mt-2">medication adherence</span>
+        <span class="badge badge-soft-success rounded-pill fs--2 me-2 mt-2">regular monitoring</span>
+        <span class="badge badge-soft-success rounded-pill fs--2 me-2 mt-2">asthma action plan</span>
+        <span class="badge badge-soft-success rounded-pill fs--2 me-2 mt-2">avoid citruses</span>
       </div>
       <div class="border-dashed-bottom my-3 d-lg-none ms-3"></div>
       <p class="mb-0 pb-0">Suggections</p>
       <div class="w-100" style="width: 200px;">
-        <span class="badge badge-soft-success rounded-pill fs--2 me-2 mt-2">eat</span>
-        <span class="badge badge-soft-success rounded-pill fs--2 me-2 mt-2">sleep</span>
-        <span class="badge badge-soft-success rounded-pill fs--2 me-2 mt-2">walk</span>
-        <span class="badge badge-soft-success rounded-pill fs--2 me-2 mt-2">talk</span>
-        <span class="badge badge-soft-success rounded-pill fs--2 me-2 mt-2">study</span>
+        <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">exercise</span>
+        <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">hydration</span>
+        <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">stress management</span>
+        <span class="badge badge-soft-primary rounded-pill fs--2 me-2 mt-2">allergen control</span>
       </div>
 
 <!--   CALENDAR-->
