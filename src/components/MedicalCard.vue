@@ -18,7 +18,7 @@
                 data-bs-toggle=""
                 aria-expanded="false"
             >
-              <h4 class="fw-bold">Diarrhea</h4>
+              <h4 class="fw-bold">Asthma</h4>
             </router-link>
           </div>
           <div class="col-6 d-flex flex-row-reverse">
@@ -31,7 +31,7 @@
           <span class="dot bg-info"></span>
           <span class="dot bg-200"></span>
           <span class="dot bg-warning"></span>
-          <span class="dot bg-success"></span>
+          <span class="dot bg-danger"></span>
           <i class="fa fa-question-circle text-400 fa-sm ms-3" aria-hidden="true"></i>
         </p>
         <div class="d-flex">
