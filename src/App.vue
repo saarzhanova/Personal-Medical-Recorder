@@ -90,7 +90,7 @@
             <ul class="navbar-nav navbar-nav-icons ms-auto flex-row align-items-center" style="z-index: 1;">
               <li class="nav-item dropdown">
                 <p class="fs--2 mb-0 fw-lighter" style="position: absolute; top:8px; left: 15.7px; z-index:1; color: white">0</p>
-                <a class="nav-link notification-indicator notification-indicator-danger px-0 fa-icon-wait" id="navbarDropdownNotification" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hide-on-body-scroll="data-hide-on-body-scroll"><span class="fas fa-bell" data-fa-transform="shrink-6" style="font-size: 33px;"></span></a>
+<!--                <a class="nav-link notification-indicator notification-indicator-danger px-0 fa-icon-wait" id="navbarDropdownNotification" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hide-on-body-scroll="data-hide-on-body-scroll"><span class="fas fa-bell" data-fa-transform="shrink-6" style="font-size: 33px;"></span></a>-->
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-card dropdown-menu-notification dropdown-caret-bg" aria-labelledby="navbarDropdownNotification">
                   <div class="card card-notification shadow-none">
                     <div class="card-header">
