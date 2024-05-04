@@ -22,19 +22,60 @@
           <div class="collapse navbar-collapse" id="navbarVerticalCollapse">
             <div class="navbar-vertical-content scrollbar">
               <ul class="navbar-nav flex-column mb-3" id="navbarVerticalNav">
+
                 <li class="nav-item">
+                  <!-- parent pages--><a class="nav-link dropdown-indicator" href="#dashboard" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dashboard">
+                  <div class="d-flex align-items-center">
+                    <span class="nav-link-icon">
+                        <span class="fas fa-user"></span>
+                      </span>
+                    <span class="nav-link-text ps-1">My account</span>
+                  </div>
+                </a>
+                  <ul class="nav collapse show" id="dashboard" style="">
+                    <li class="nav-item">
+                      <router-link
+                          class="nav-link"
+                          :class="{'active' : (this.$route.name === 'AccountPage' || this.$route.path === '/account')}"
+                          :to="{ path: '/account'}"
+                          data-bs-toggle=""
+                          aria-expanded="false"
+                      >
+                        <div class="d-flex align-items-center">
+                          <span class="nav-link-text ps-1">Profile</span>
+                        </div>
+                      </router-link>
+                    </li>
+                    <li class="nav-item">
+                      <router-link
+                          class="nav-link"
+                          :class="{'active' : (this.$route.name === 'MedicalCard' || this.$route.path === '/medical-card')}"
+                          :to="{ path: '/medical-card'}"
+                          data-bs-toggle=""
+                          aria-expanded="false"
+                      >
+                        <div class="d-flex align-items-center">
+                          <span class="nav-link-text ps-1">Medical Card</span>
+                        </div>
+                      </router-link>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <!-- parent pages-->
                   <router-link
                       class="nav-link"
-                      :class="{'active' : (this.$route.name === 'AccountPage' || this.$route.path === '/account')}"
-                      :to="{ path: '/account'}"
+                      :class="{'active' : (this.$route.name === 'Calendar' || this.$route.path === '/calendar')}"
+                      :to="{ path: '/calendar'}"
                       data-bs-toggle=""
                       aria-expanded="false"
                   >
                     <div class="d-flex align-items-center">
                       <span class="nav-link-icon">
-                        <span class="fas fa-user"></span>
+                        <span class="fas fa-calendar"></span>
                       </span>
-                      <span class="nav-link-text ps-1">Account</span>
+                      <span class="nav-link-text ps-1">Calendar</span>
                     </div>
                   </router-link>
                 </li>
@@ -55,26 +96,6 @@
                     <span class="nav-link-text ps-1">Chat</span>
                   </div>
                 </router-link>
-                </li>
-                <li class="nav-item">
-                  <!-- parent pages-->
-                  <router-link
-                      class="nav-link"
-                      :class="{'active' : (this.$route.name === 'Calendar' || this.$route.path === '/calendar')}"
-                      :to="{ path: '/calendar'}"
-                      data-bs-toggle=""
-                      aria-expanded="false"
-                  >
-                    <div class="d-flex align-items-center">
-                      <span class="nav-link-icon">
-                        <span class="fas fa-calendar"></span>
-                      </span>
-                      <span class="nav-link-text ps-1">Calendar</span>
-                    </div>
-                  </router-link>
-                </li>
-                <li class="nav-item">
-                  <!-- parent pages-->
                 </li>
               </ul>
             </div>
