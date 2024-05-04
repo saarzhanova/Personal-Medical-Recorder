@@ -126,20 +126,13 @@
                 <hr>
               </div>
               <div class="d-flex order-md-0">
-                <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#addEventModal"> <svg class="svg-inline--fa fa-plus fa-w-14 me-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg><!-- <span class="fas fa-plus me-2"></span> Font Awesome fontawesome.com -->Add Schedule</button>
-              </div>
-              <div class="d-flex justify-content-start order-md-2 mt-3">
-                <div class="dropdown font-sans-serif me-md-2">
-                  <button class="btn btn-falcon-default text-600 btn-sm dropdown-toggle dropdown-caret-none" type="button" id="email-filter" data-bs-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span data-view-title="data-view-title">Month View</span><svg class="svg-inline--fa fa-sort fa-w-10 ms-2 fs--1" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sort" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41zm255-105L177 64c-9.4-9.4-24.6-9.4-33.9 0L24 183c-15.1 15.1-4.4 41 17 41h238c21.4 0 32.1-25.9 17-41z"></path></svg><!-- <span class="fas fa-sort ms-2 fs--1"></span> Font Awesome fontawesome.com --></button>
-                  <div class="dropdown-menu dropdown-menu-end border py-2" aria-labelledby="email-filter" style=""><a class="dropdown-item d-flex justify-content-between active" href="#!" data-fc-view="dayGridMonth">Month View<span class="icon-check"><svg class="svg-inline--fa fa-check fa-w-16" data-fa-transform="down-4 shrink-4" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.75em;"><g transform="translate(256 256)"><g transform="translate(0, 128)  scale(0.75, 0.75)  rotate(0 0 0)"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" transform="translate(-256 -256)"></path></g></g></svg><!-- <span class="fas fa-check" data-fa-transform="down-4 shrink-4"></span> Font Awesome fontawesome.com --></span></a><a class="dropdown-item d-flex justify-content-between" href="#!" data-fc-view="timeGridWeek">Week View<span class="icon-check"><svg class="svg-inline--fa fa-check fa-w-16" data-fa-transform="down-4 shrink-4" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.75em;"><g transform="translate(256 256)"><g transform="translate(0, 128)  scale(0.75, 0.75)  rotate(0 0 0)"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" transform="translate(-256 -256)"></path></g></g></svg><!-- <span class="fas fa-check" data-fa-transform="down-4 shrink-4"></span> Font Awesome fontawesome.com --></span></a><a class="dropdown-item d-flex justify-content-between" href="#!" data-fc-view="timeGridDay">Day View<span class="icon-check"><svg class="svg-inline--fa fa-check fa-w-16" data-fa-transform="down-4 shrink-4" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.75em;"><g transform="translate(256 256)"><g transform="translate(0, 128)  scale(0.75, 0.75)  rotate(0 0 0)"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" transform="translate(-256 -256)"></path></g></g></svg><!-- <span class="fas fa-check" data-fa-transform="down-4 shrink-4"></span> Font Awesome fontawesome.com --></span></a><a class="dropdown-item d-flex justify-content-between" href="#!" data-fc-view="listWeek">List View<span class="icon-check"><svg class="svg-inline--fa fa-check fa-w-16" data-fa-transform="down-4 shrink-4" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.75em;"><g transform="translate(256 256)"><g transform="translate(0, 128)  scale(0.75, 0.75)  rotate(0 0 0)"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" transform="translate(-256 -256)"></path></g></g></svg><!-- <span class="fas fa-check" data-fa-transform="down-4 shrink-4"></span> Font Awesome fontawesome.com --></span></a><a class="dropdown-item d-flex justify-content-between" href="#!" data-fc-view="listYear">Year View<span class="icon-check"><svg class="svg-inline--fa fa-check fa-w-16" data-fa-transform="down-4 shrink-4" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="" style="transform-origin: 0.5em 0.75em;"><g transform="translate(256 256)"><g transform="translate(0, 128)  scale(0.75, 0.75)  rotate(0 0 0)"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z" transform="translate(-256 -256)"></path></g></g></svg><!-- <span class="fas fa-check" data-fa-transform="down-4 shrink-4"></span> Font Awesome fontawesome.com --></span></a>
-                  </div>
-                </div>
+                <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#addEventModal"> <svg class="svg-inline--fa fa-plus fa-w-14 me-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg><!-- <span class="fas fa-plus me-2"></span> Font Awesome fontawesome.com -->Add Event</button>
               </div>
             </div>
           </div>
 
           <div class="card-body p-0">
-            <div class="calendar-outline fc fc-media-screen fc-direction-ltr fc-theme-standard" id="appCalendar" style="height: 800px;">
+            <div class="calendar-outline fc fc-media-screen fc-direction-ltr fc-theme-standard" style="height: 800px;">
               <div class="fc-view-harness fc-view-harness-active">
                 <div class="fc-daygrid fc-dayGridMonth-view fc-view">
                   <table class="fc-scrollgrid  fc-scrollgrid-liquid">
@@ -206,6 +199,7 @@
                                 <tbody>
                                 <tr v-for="(week,index) in this.daysList" :key="index">
                                   <td v-for="(day,index) in week" :key="index"
+                                      @click ="satCalendarDate(day.day)"
                                       class="fc-daygrid-day fc-day fc-day-past">
 <!--                                    to make day grey ----fc-day-other-->
 <!--                                    to show week day ----fc-day-sun-->
@@ -217,42 +211,34 @@
                                       </div>
 
                                       <div class="fc-daygrid-day-events">
-                                        <div class="fc-daygrid-event-harness" style="margin-top: 0px;" v-for="(name, index) in day.info" :key="index">
-                                          <a class="fc-daygrid-event fc-daygrid-block-event fc-h-event fc-event fc-event-draggable fc-event-resizable fc-event-start fc-event-end fc-event-future bg-soft-primary" href="http://google.com">
+                                        <div class="fc-daygrid-event-harness" style="margin-top: 0px;">
+                                          <a class="fc-daygrid-event fc-daygrid-block-event fc-h-event fc-event fc-event-draggable fc-event-resizable fc-event-start fc-event-end fc-event-future bg-soft-primary">
                                             <div class="fc-event-main">
                                               <div class="fc-event-main-frame">
-<!--                                                <div class="fc-event-time">10 AM</div>-->
                                                 <div class="fc-event-title-container">
-                                                  <div class="fc-event-title fc-sticky">{{ name }}</div>
+                                                  <div class="fc-event-title fc-sticky">{{ day.info[0] }}</div>
                                                 </div>
                                               </div>
                                             </div>
                                             <div class="fc-event-resizer fc-event-resizer-end"></div>
                                           </a>
                                         </div>
-                                        <div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div>
+                                        <div class="fc-daygrid-day-bottom" style="margin-top: 0px;" v-if="day.info.length > 1">
+                                          <a class="fc-daygrid-more-link fc-more-link">+{{day.info.length-1}}</a>
+                                        </div>
                                       </div>
-
-<!--                                      to make chip larger ----fc-daygrid-event-harness-abs" style="top: 0px; left: 0px; right: -108.562px;"-->
-<!--                                      <div class="fc-daygrid-day-events">-->
-<!--                                        <div class="fc-daygrid-event-harness fc-daygrid-event-harness-abs" style="top: 0px; left: 0px; right: -108.562px;">-->
-<!--                                          <a class="fc-daygrid-event fc-daygrid-block-event fc-h-event fc-event fc-event-draggable fc-event-start fc-event-end bg-soft-success">-->
-<!--                                            <div class="fc-event-main">-->
-<!--                                              <div class="fc-event-main-frame">-->
-<!--                                                <div class="fc-event-time">10 AM</div>-->
-<!--                                                <div class="fc-event-title-container">-->
-<!--                                                  <div class="fc-event-title fc-sticky">Boot Camp</div>-->
-<!--                                                </div>-->
-<!--                                              </div>-->
-<!--                                            </div>-->
-<!--                                          </a>-->
-<!--                                        </div>-->
-<!--                                        <div class="fc-daygrid-day-bottom" style="margin-top: 31px;"></div>-->
-<!--                                      </div>-->
-
+                                    </div>
+                                    <div
+                                        class="p-1 mt-3"
+                                        style="position:absolute; z-index:100; background-color:white; width: 100px; height: 100px;"
+                                        v-if="day !== 0 && calendarDate === day.day"
+                                    >
+                                      <span class="text-primary fs--2">Requirements:</span>
+                                      <ul>
+                                        <li class="text-primary fs--2" v-for="(info, index) in day.info" :key="index"><span class="text-primary fs--2">{{info}}</span></li>
+                                      </ul>
                                     </div>
                                   </td>
-<!--                                  <td class="fc-daygrid-day fc-day fc-day-mon fc-day-past" data-date="2024-04-02"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a class="fc-daygrid-day-number">2</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 31px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td>-->
                                 </tr>
                                 </tbody>
                               </table>
@@ -275,7 +261,7 @@
               <div class="modal-header px-5 position-relative modal-shape-header bg-shape">
                 <div class="position-relative z-index-1 light">
                   <h4 class="mb-0 text-white" id="authentication-modal-label">Register</h4>
-                  <p class="fs--1 mb-0 text-white">Please create your free Falcon account</p>
+                  <p class="fs--1 mb-0 text-white">Please create your account</p>
                 </div>
                 <button class="btn-close btn-close-white position-absolute top-0 end-0 mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
@@ -329,7 +315,7 @@
             <div class="modal-content border">
               <form id="addEventForm" autocomplete="off">
                 <div class="modal-header px-card bg-light border-bottom-0">
-                  <h5 class="modal-title">Create Schedule</h5>
+                  <h5 class="modal-title">Create Event</h5>
                   <button class="btn-close me-n1" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-card">
@@ -359,10 +345,6 @@
                     </label>
                   </div>
                   <div class="mb-3">
-                    <label class="fs-0">Schedule Meeting</label>
-                    <div><a class="btn badge-soft-success btn-sm" href="#!"><svg class="svg-inline--fa fa-video fa-w-18 me-2" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="video" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z"></path></svg><!-- <span class="fas fa-video me-2"></span> Font Awesome fontawesome.com -->Add video conference link</a></div>
-                  </div>
-                  <div class="mb-3">
                     <label class="fs-0" for="eventDescription">Description</label>
                     <textarea class="form-control" rows="3" name="description" id="eventDescription"></textarea>
                   </div>
@@ -370,14 +352,15 @@
                     <label class="fs-0" for="eventLabel">Label</label>
                     <select class="form-select" id="eventLabel" name="label">
                       <option value="" selected="selected">None</option>
-                      <option value="primary">Business</option>
-                      <option value="danger">Important</option>
-                      <option value="success">Personal</option>
-                      <option value="warning">Must Attend</option>
+                      <option value="primary">Appointment</option>
+                      <option value="danger">Problem</option>
+                      <option value="warning">Contraindication</option>
+                      <option value="primary">Requirement</option>
+                      <option value="success">Suggestion</option>
                     </select>
                   </div>
                 </div>
-                <div class="card-footer d-flex justify-content-end align-items-center bg-light"><a class="me-3 text-600" href="../app/events/create-an-event.html">More options</a>
+                <div class="card-footer d-flex justify-content-end align-items-center bg-light">
                   <button class="btn btn-primary px-4" type="submit">Save</button>
                 </div>
               </form>
@@ -401,7 +384,8 @@ export default {
       medicalCard: [],
       diagnosis: {},
       clicked: false,
-      activeIndex: undefined
+      activeIndex: undefined,
+      calendarDate: undefined
     };
   },
   props: {
@@ -412,22 +396,27 @@ export default {
   },
   computed: {
     calendar() {
-      let requirements = this.medicalCard.requirements
+      let requirements = this.medicalCard.requirements;
       let startDate = new Date(this.medicalCard.startDate * 1000);
-      let endDate = new Date(this.medicalCard.endDate * 1000);
+      let endDate;
+      if (this.medicalCard.endDate !== 0 ) {
+        endDate = new Date(this.medicalCard.endDate * 1000);
+      } else {
+        endDate = new Date();
+      }
       let calendar = [];
 
       let startMonth = startDate.toLocaleString("default", {month:"long"});
       let startYear = startDate.toLocaleString("default", {year:"numeric"});
-      let startWeekDay = startDate.getDay()
+      let startWeekDay = startDate.getDay();
       console.log('start date: ', startDate.getDate(), startMonth, startYear, startWeekDay)
 
       let endMonth = endDate.toLocaleString("default", {month:"long"});
       let endYear = endDate.toLocaleString("default", {year:"numeric"});
-      let endWeekDay = endDate.getDay()
+      let endWeekDay = endDate.getDay();
       console.log('end date: ', endDate.getDate(), endMonth, endYear, endWeekDay)
 
-      let currentDate = startDate
+      let currentDate = startDate;
       for (let i = startYear; i <= endYear; i++ && currentDate <= endDate) {
         let year = Number(i)
         let monthsDict = {}
@@ -439,11 +428,15 @@ export default {
           let curYear = Number(currentDate.toLocaleString("default", {year:"numeric"}))
           if (curYear === year) {
             for (let i = 0; i < requirements.length; i++) {
-              if (currentDate >= new Date(requirements[i].startDate * 1000) && currentDate <= new Date(requirements[i].endDate * 1000)) {
-                console.log('yes')
-                nameList.push(requirements[i].name)
+              if (!this.medicalCard.isChronic) {
+                if (currentDate >= new Date(requirements[i].startDate * 1000) && currentDate <= new Date(requirements[i].endDate * 1000)) {
+                  console.log('yes')
+                  nameList.push(requirements[i].name)
+                } else {
+                  console.log('no')
+                }
               } else {
-                console.log('no')
+                nameList.push(requirements[i].name)
               }
             }
 
@@ -496,9 +489,9 @@ export default {
     },
     getFrequency(feature) {
       if (feature.frequencyFrom === feature.frequencyTo) {
-        return feature.frequencyFrom + " per " + feature.period
+        return feature.frequencyFrom + " per " + feature.per
       } else {
-        return feature.frequencyFrom + "-" + feature.frequencyTo + " per " + feature.period
+        return feature.frequencyFrom + "-" + feature.frequencyTo + " per " + feature.per
       }
     },
     setActive(index){
@@ -507,6 +500,13 @@ export default {
       } else {
         this.activeIndex = index
       }
+    },
+    satCalendarDate(date) {
+        if (this.calendarDate === date) {
+          this.calendarDate = undefined
+        } else {
+          this.calendarDate = date
+        }
     },
     isRelevant(feature) {
       let currentDate = moment().unix()
