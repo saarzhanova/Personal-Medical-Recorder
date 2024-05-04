@@ -3,7 +3,6 @@
     {
       "name": "Apestorchiasis",
       "isChronic": false,
-      "isTreated": true,
       "startDate": 1527824800,
       "endDate": 1627789600,
       "disturbanceFrequency": [1, 3, 4],
@@ -96,7 +95,6 @@
     {
       "name": "Eczema",
       "isChronic": true,
-      "isTreated": false,
       "startDate": 978307200,
       "endDate": 0,
       "disturbanceFrequency": [1,3,5],
