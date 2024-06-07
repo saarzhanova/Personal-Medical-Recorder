@@ -27,25 +27,6 @@
           </div>
         </div>
         <p class="text-500 fs--1 ps-4"><span>{{ getStartDate(card.startDate) }} - {{ getEndDate(card.endDate) }}</span></p>
-        <!--        <p class="p-0 m-0 ps-4">Disturbance Frequency-->
-        <!--          <span class="dot bg-primary ms-3"></span>-->
-        <!--          <span class="dot bg-info"></span>-->
-        <!--          <span class="dot bg-200"></span>-->
-        <!--          <span class="dot bg-warning"></span>-->
-        <!--          <span class="dot bg-danger"></span>-->
-        <!--          <i class="fa fa-question-circle text-400 fa-sm ms-3" aria-hidden="true"></i>-->
-        <!--        </p>-->
-        <!--        <div class="d-flex">-->
-        <!--          <div class="d-flex align-items-center">-->
-        <!--            <p class="p-0 m-0 ps-4">Treatment</p>-->
-        <!--          </div>-->
-        <!--          <div class="d-flex align-items-center">-->
-        <!--            <div class="progress rounded-3 mb-0 pb-0 ms-3 align-bottom" style="height: 10px; width: 200px;">-->
-        <!--              <div class="progress-bar bg-progress-gradient border-end border-white border-2" role="progressbar" style="width: 160px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>-->
-        <!--              <div class="progress-bar bg-200" role="progressbar" style="width: 40px" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>-->
-        <!--            </div>-->
-        <!--          </div>-->
-        <!--        </div>-->
       </div>
     </div>
   </div>

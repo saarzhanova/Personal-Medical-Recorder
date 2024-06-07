@@ -42,7 +42,6 @@
             <span>11, Street, City, 00000</span></div>
         </div>
         <div class="border-dashed-bottom my-4 d-lg-none"></div>
-        <!--      </div>-->
       </div>
     </div>
     <div class="d-grid gap-2 mx-5">
@@ -71,14 +70,14 @@ export default {
 
   },
   mounted() {
-    var isFluid = JSON.parse(localStorage.getItem('isFluid'));
+    let isFluid = JSON.parse(localStorage.getItem('isFluid'));
     if (isFluid) {
-      var container = document.querySelector('[data-layout]');
+      let container = document.querySelector('[data-layout]');
       container.classList.remove('container');
       container.classList.add('container-fluid');
     }
 
-    var navbarStyle = localStorage.getItem("navbarStyle");
+    let navbarStyle = localStorage.getItem("navbarStyle");
     if (navbarStyle && navbarStyle !== 'transparent') {
       document.querySelector('.navbar-vertical').classList.add(`navbar-${navbarStyle}`);
     }
