@@ -34,5 +34,5 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/medical-record-app.git
-   cd medical-record-app
+   git clone https://github.com/saarzhanova/personal-doctor.git
+   cd personal-doctor
