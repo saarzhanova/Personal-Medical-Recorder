@@ -4,4 +4,4 @@ This is the GitHub Pages branch for the Medical Record Application prototype. Fo
 
 ## Visit the live application
 
-The live prototype can be accessed [here](https://saarzhanova.github.io/personal-doctor/).
+The live prototype can be accessed [here](https://saarzhanova.github.io).
